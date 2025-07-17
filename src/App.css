@@ -570,9 +570,12 @@ body.dark, .App.dark {
   .hero-content {
     max-width: 100%;
     margin-bottom: 1.5rem;
+    order: 2;
   }
   .hero-img-wrapper {
     margin-top: 1.5rem;
+    order: 1;
+    margin-bottom: 1.5rem;
   }
 }
 
