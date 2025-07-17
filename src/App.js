@@ -8,6 +8,7 @@ import Certifications from './Certifications';
 import Education from './Education';
 import Internship from './Internship';
 import Contact from './Contact';
+import Links from './Links';
 import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Education />
       <Internship />
       <Contact />
+      <Links />
     </div>
   );
 }

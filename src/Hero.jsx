@@ -10,7 +10,9 @@ const Hero = () => {
         <img src={profileImg} alt="Profile" className="profile-img" />
       </div>
       <div className="hero-content fade-in">
-        <h1 className="hero-greeting">Hi! I am Indhu</h1>
+        <h1 className="hero-greeting">
+          <span className="hi-icon">👋</span> Hi! I am <span className="highlight-name">Indhu</span>
+        </h1>
         <div className="typewriter-container" style={{ margin:0, padding:0 }}>
           <Typewriter
             options={{
