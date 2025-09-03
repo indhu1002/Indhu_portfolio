@@ -6,21 +6,29 @@ const projects = [
   {
     title: 'Student Result Management',
     tech: 'React + Firebase',
-    github: 'https://github.com/indhu1002/student-result-management', // Replace with actual link
-    live: 'https://student-result-management-smoky.vercel.app/',   // Replace with actual link
+    github: 'https://github.com/indhu1002/student-result-management', 
+    live: 'https://student-result-management-smoky.vercel.app/',   
   },
+
+ {
+    title: 'Tourism Website',
+    tech: 'React + Firebase',
+    github: 'https://github.com/indhu1002/Tourism_Website', 
+    live: 'https://tourism-website-wine.vercel.app/',    
+  },
+
   {
     title: 'Addition Game',
     tech: 'JavaScript',
-    github: 'https://github.com/indhu1002/addition_game', // Replace with actual link
-    live: 'https://addition-game-kappa.vercel.app/',   // Replace with actual link
+    github: 'https://github.com/indhu1002/addition_game', 
+    live: 'https://addition-game-kappa.vercel.app/',  
   },
-  {
-    title: 'To-Do List App',
-    tech: 'HTML, CSS, JS',
-    github: 'https://github.com/indhu1002/Todo-List-Application', // Replace with actual link
-    live: 'https://todo-list-application-4q2u.vercel.app/',   // Replace with actual link
-  },
+  // {
+  //   title: 'To-Do List App',
+  //   tech: 'HTML, CSS, JS',
+  //   github: 'https://github.com/indhu1002/Todo-List-Application', 
+  //   live: 'https://todo-list-application-4q2u.vercel.app/',   
+  // },
 ];
 
 const Projects = () => {
